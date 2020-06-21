@@ -1,0 +1,29 @@
+body{
+	background-image: url("background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.box{
+	width: 580px;
+	height: 180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+	text-align: center;
+	opacity: 0.9;
+}
+h1{
+	
+	color: red;
+	text-decoration: underline dotted red;
+}
+.home{
+	font-size: 30px;
+	padding:5px;
+	cursor: pointer;
+	color:white;
+	background-color: blue;
+	border-radius:5px;
+}
